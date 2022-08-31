@@ -1,6 +1,7 @@
 # Haushaltskasse
 Ein kleines Projekt aus der Ausbildung. 
 Ohne SQL Datenbank. Bitte SQL Zugriff selbst in der entsprechenden SQLM.class.php einstellen.
+ERD/ERM ist im Ordner Projektplanung vorhanden und kann zum Aufbau der kleinen Datenbank dafür genutzt werden.
 
 Kein Support, da kein Langzeitprojekt. 
 
