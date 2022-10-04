@@ -1,3 +1,5 @@
+<?php require_once 'includes/main.inc.php'; ?>
+
 <style>
     html {
         background-image: url("img/background.jpg");
@@ -139,23 +141,23 @@
     .pie-chart1 {
         background: radial-gradient(circle closest-side, transparent 100%, beige), conic-gradient(
                 from 180deg,
-                hotpink 0,
-                hotpink 11%,
-                steelblue 0,
-                steelblue 22%,
-                greenyellow 0,
-                greenyellow 33%,
-                orange 0,
-                orange 44%,
-                powderblue 0,
-                powderblue 55%,
-                tan 0,
-                tan 66%,
-                silver 0,
-                silver 77%,
-                aquamarine 0,
-                aquamarine 88%,
-                royalblue 0,
+                hotpink 0%,
+                hotpink <?php echo $controller->auswertungData[0][1][0]?>%,
+                steelblue <?php echo $controller->auswertungData[0][1][0]?>%,
+                steelblue <?php echo $controller->auswertungData[0][1][1]?>%,
+                greenyellow <?php echo $controller->auswertungData[0][1][1]?>%,
+                greenyellow <?php echo $controller->auswertungData[0][1][2]?>%,
+                orange <?php echo $controller->auswertungData[0][1][2]?>%,
+                orange <?php echo $controller->auswertungData[0][1][3]?>%,
+                powderblue <?php echo $controller->auswertungData[0][1][3]?>%,
+                powderblue <?php echo $controller->auswertungData[0][1][4]?>%,
+                tan <?php echo $controller->auswertungData[0][1][4]?>%,
+                tan <?php echo $controller->auswertungData[0][1][5]?>%,
+                silver <?php echo $controller->auswertungData[0][1][5]?>%,
+                silver <?php echo $controller->auswertungData[0][1][6]?>%,
+                aquamarine <?php echo $controller->auswertungData[0][1][6]?>%,
+                aquamarine <?php echo $controller->auswertungData[0][1][7]?>%,
+                royalblue <?php echo $controller->auswertungData[0][1][7]?>%,
                 royalblue 100%
         );
         min-width: 300px;
